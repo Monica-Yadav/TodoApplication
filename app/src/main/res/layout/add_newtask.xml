@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:paddingStart="8dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter New Task"
+        android:textColor="@color/black"
+        android:paddingEnd="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/edittext"
+        android:background="#D22E2E2C"
+        android:text="Save"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/carter_one"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/ssnew">
+
+        <TextView
+            android:id="@+id/todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="#Todo"
+            android:textStyle="bold"
+            android:textSize="55dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/carter_one"
+            android:translationY="380dp"
+            android:textAlignment="center">
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>
