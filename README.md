@@ -1,5 +1,5 @@
 # TodoApplication
-Add things to do , make a list complete your task , be productive
+Add things to do , make a list , complete your task , be productive
 ### Splash Screen
 <p align="center" width="100%">
     <img  src="https://user-images.githubusercontent.com/45056329/123138548-c74cee00-d472-11eb-9f82-457a9c357769.png"> 
